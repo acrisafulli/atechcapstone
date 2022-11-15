@@ -1,9 +1,11 @@
-body{
-    background-image:url('https://wallpapercave.com/wp/wp9147294.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-  }
+body {
+  margin: 0;
+  background-image:url('https://wallpapercave.com/wp/wp9147294.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
 h1, footer {
     text-align: center;
     color: white;
