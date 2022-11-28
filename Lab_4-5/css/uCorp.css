@@ -61,6 +61,8 @@ section {
   background-image: url("../media/globe.png"); 
   background-repeat: no-repeat;
   background-size: contain;
+  resize: both;
+  overflow: auto;
 }
 
 .floatright {
@@ -82,11 +84,11 @@ section {
 #animation {
   position: relative;
 
-  /* Chrome and Safari*/
+  /* Safari and Chrome: */
   -webkit-animation-name: logoanimation;
   -webkit-animation-duration: 4s;
   -webkit-animation-timing-function: linear;
-
+  
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
   -webkit-animation-play-state: running;
