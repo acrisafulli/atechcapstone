@@ -71,3 +71,13 @@ h1 {
   clear: right;
   margin: 10px;
 }
+
+#img-rotate {
+  -ms-transform: rotate(345deg); 
+  -webkit-transform: rotate(345deg); 
+}
+#video-rotate {
+  -ms-transform: rotate(15deg); 
+  -webkit-transform: rotate(15deg); 
+  transform: rotate(15deg);
+}
