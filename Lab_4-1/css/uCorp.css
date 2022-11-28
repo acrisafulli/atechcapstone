@@ -1,14 +1,18 @@
 /* STYLE SHEET FOR INDEX.HTM */
 
 
+@font-face {
+  font-family: oregonfont;
+  src: url("../media/oregon book.ttf");
+}
 
 article {	
   padding: 10px;
 }
 
 body {
-  font-size: 80%;
-  font-family: arial, helvetica, geneva, sans-serif;
+  font-family: oregonfont;
+  font-size: 85%;
   border-style: solid;
   border-width: 5px;
   border-color: #d8d8d8;
@@ -26,7 +30,7 @@ footer {
 }
 
 h1 {
-  font-family: arial, helvetica, geneva, sans-serif;
+  text-shadow: 3px 3px 3px #888888;
   margin-top: 5px; 
   margin-bottom: 0px; 
 }
