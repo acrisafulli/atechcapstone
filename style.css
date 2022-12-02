@@ -120,6 +120,7 @@ h1 {
   font-weight: bold;
   font-size: 85%;
   color: #0000a0;
+  overflow: visible;
 }
 
 #drop-menu:hover {
