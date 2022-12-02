@@ -18,7 +18,7 @@ h2 {
 /* Set background color for nav bar */
 .topnav {
   background-color: #6b4984;
-  overflow: visible;
+  overflow: hidden;
   opacity: 95%;
 }
 
